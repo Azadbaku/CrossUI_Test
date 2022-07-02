@@ -447,19 +447,7 @@ const Admin = props => {
       }
     });
 
-    return html`
-        <${React.Fragment}>
-            <img src=${useModule.resolveURL("./logo4.png")} />
-            <${ CssBaseline }>
-            </${ CssBaseline }>
-            <${Copyright2}>
-            </${Copyright2}>
-            <${Copyright2}>
-            </${Copyright2}>
-            <${Copyright2}>
-            </${Copyright2}>
-        </${React.Fragment}>
-    `;
+    return (<View><Text></Text></View>)
 };
 
 export default Admin;
